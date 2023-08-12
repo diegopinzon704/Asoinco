@@ -33,14 +33,13 @@
                             <input type="hidden" pattern="[a-zA-záéíóúÁÉÍÓÚñÑ0-9 ]{1,140}" class="form-control" name="codigoRol" id="item_nombre" maxlength="140" value="<?php echo $rol->getRolCode() ?>">
                         </div>
                         <div class="form-group">
-                            <label for="item_nombre" class="bmd-label-floating">Nombre Rol</label>
+                            <label for="item_nombre" class="bmd-label-floating">Nombre Rol:</label>
                             <input type="text" pattern="[a-zA-záéíóúÁÉÍÓÚñÑ0-9 ]{1,140}" class="form-control" name="nombreRol" id="item_nombre" maxlength="140" value="<?php echo $rol->getRolName() ?>" required>
                         </div>
                     </div>
                 </div>
             </div>
         </fieldset>
-        <br><br><br>
         <p class="text-center" style="margin-top: 40px;">
             <button type="reset" class="btn btn-raised btn-secondary btn-sm"><i class="fas fa-paint-roller"></i> &nbsp; LIMPIAR</button>
             &nbsp; &nbsp;

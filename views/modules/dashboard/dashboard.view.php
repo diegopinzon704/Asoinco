@@ -36,6 +36,8 @@
 
                             <a href="?c=Roles&a=registrarRoles" class="btn btn-primary padin1">CREAR ROL</a>
 
+                            <a href="?c=Roles&a=consultarRoles" class="btn btn-primary padin1"> LISTA DE ROLES</a>
+
                             <a href="?c=Landing&a=tablaaspirantes" class="btn btn-primary padin1">TABLA DE ASPIRANTES</a>
                         </div>
                     </div>

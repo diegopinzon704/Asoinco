@@ -9,14 +9,17 @@
  <div class="container-fluid">
      <ul class="full-box list-unstyled page-nav-tabs">
          <li>
-             <a href="?c=Roles&a=registrarRoles"><i class="fas fa-plus fa-fw"></i> &nbsp; AGREGAR ROL</a>
+             <a href="?c=Roles&a=registrarRoles" class="btn btn-primary"><i class="fas fa-plus fa-fw"></i> &nbsp; Agregar Rol</a>
          </li>
+         <br>
          <li>
-             <a class="active" href="#"><i class="fas fa-clipboard-list fa-fw"></i> &nbsp; LISTA DE ITEMS</a>
+             <a class="btn btn-primary" href="#"><i class="fas fa-clipboard-list fa-fw"></i> &nbsp; Lista De Roles</a>
          </li>
-         <!-- <li>
-             <a href="#"><i class="fas fa-search fa-fw"></i> &nbsp; BUSCAR ITEM</a>
-         </li> -->
+         <br>
+         <li>
+             <!-- <a href="#"><i class="fas fa-search fa-fw"></i> &nbsp; BUSCAR ITEM</a> -->
+             <a type="submit" href="?c=Dashboard" class="btn bg-secondary text-white">Atrás</a>
+         </li> 
      </ul>
  </div>
  <!--CONTENT-->
