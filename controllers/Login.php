@@ -15,13 +15,14 @@
                 if ($user == "emily" && $pass == "12345") {
                     header("Location: ?c=Dashboard");
                 } else {                    
-                    
+                    $mensaje = '<h3>Usuario Incorrecto</h3>';
                     require_once "views/roles/business/header.php";
+                    echo $mensaje;
                     require_once "views/business/iniciar_sesion.view.php";
-                    $mensaje = 'Usuario Incorrecto';
                     require_once "views/business/links.php";
                     require_once "views/roles/business/footer.php";
                     // echo "<script>alert('Usuario Incorrecto')</script>";
+                    
                 }
             }
         }
